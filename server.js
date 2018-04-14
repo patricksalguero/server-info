@@ -8,7 +8,7 @@ var timer = require('timers')
 var os = require('os')
 
 
-var port = 8000;
+var port = 8001;
 
 io.on('connection', (socket) => {
   console.log('Nueva conexión: ' + socket.id );
